@@ -1,0 +1,37 @@
+/* Heading */
+h1 {
+    background-color: #4682B4;
+    padding: 20px;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    border-bottom: 5px solid #777;
+    color: white;
+    
+}
+
+/* Content */
+
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/vintage-leaves.png");
+
+}
+
+.container {
+    width: 960px;
+    margin: 20px auto;
+    background: white;
+    border: 2px solid #777;
+    text-align: center;
+}
+
+/* Psychic Img */
+
+img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #777;
+
+}
