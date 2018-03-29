@@ -46,14 +46,19 @@ document.onkeyup = function (event) {
 	}
 
     // Creating a variable to hold our new HTML. Our HTML now keeps track of the user and computer guesses, and wins/losses/ties.
-    var html =
-    "<p> Wins: " + wins + "</p>" +
-    "<p> Loses: " + loses + "</p>" +
-    "<p> Your Guesses so Far: " + guessesFar + "</p>" +
-    "<p>Guesses Left: " + guessesLeft + "</p>";
+    // var html =
+    // "<p> Wins: " + wins + "</p>" +
+    // "<p> Loses: " + loses + "</p>" +
+    // "<p> Your Guesses so Far: " + guessesFar + "</p>" +
+    // "<p>Guesses Left: " + guessesLeft + "</p>";
     
+    document.getElementById("wins").textContent= wins;
+    document.getElementById("loses").textContent= loses;
+    document.getElementById("guessesFar").textContent= guessesFar;
+    document.getElementById("guessesLeft").textContent= guessesLeft;
+
     // Set the inner HTML contents of the #game div to our html string
-    document.querySelector("#game").innerHTML = html;
+    // document.querySelector("#game").innerHTML = html;
  
 };
     
